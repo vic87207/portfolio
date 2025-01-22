@@ -1,0 +1,47 @@
+body{
+  background-color: white;
+}
+
+.header-container{
+  text-align: center;
+  padding: 50px 50px;
+  border: 5px solid #291815b2;
+  border-radius: .5cm;
+}
+
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #291815;
+}
+
+.subtitle{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: bold;
+  color: #291815;
+}
+
+.business-card{
+  display: flex;
+}
+
+.profilepic{
+  padding: 20px;
+  max-width: 20%;
+  height: auto;
+  border-radius: 1cm;
+  box-shadow: #382616;
+}
+
+.about{
+  padding-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container{
+  display: flexbox;
+}

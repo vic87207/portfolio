@@ -10923,6 +10923,7 @@ p.lead {
 }
 .social-icons .social-icon {
   display: inline-flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -10938,6 +10939,18 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
+}
+
+.custom-icon {
+  width: 32px; /* Adjust to match other icons */
+  height: 32px; /* Adjust to match other icons */
+  object-fit: contain; /* Ensures proper aspect ratio */
+  border-radius: 50%; /* Optional: Makes the icon circular */
+  transition: transform 0.2s ease; /* Optional: Add hover effect */
+}
+
+.custom-icon:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
 }
 
 .dev-icons {

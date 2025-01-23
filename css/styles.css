@@ -10941,6 +10941,12 @@ p.lead {
   background-color: #bd5d38;
 }
 
+.social-icon img {
+  width: 24px; /* Match font-awesome icons */
+  height: 24px;
+  vertical-align: middle; /* Align with text or other icons */
+}
+
 .custom-icon {
   width: 32px; /* Adjust to match other icons */
   height: 32px; /* Adjust to match other icons */
